@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'vercel';
+  NG_APP_HELLO = process.env['NG_APP_HELLO']
 }
